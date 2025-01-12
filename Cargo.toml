@@ -1,0 +1,15 @@
+[workspace.package]
+license = "MIT-0"
+authors = ["Authur Lan <authurlan@gmail.com>"]
+homepage = ""
+repository = ""
+edition = "2025"
+
+[workspace]
+members = [
+    "node",
+    "pallets/template",
+    "runtime",
+]
+
+resolver = "2"
